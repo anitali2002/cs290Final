@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Fridge" representedClassName="Fridge" syncable="YES" codeGenerationType="class">
+        <attribute name="dairy" optional="YES" attributeType="String"/>
+        <attribute name="fruit" optional="YES" attributeType="String"/>
+        <attribute name="grain" optional="YES" attributeType="String"/>
+        <attribute name="meat" optional="YES" attributeType="String"/>
+        <attribute name="num_dairy" optional="YES" attributeType="String"/>
+        <attribute name="num_fruit" optional="YES" attributeType="String"/>
+        <attribute name="num_grain" optional="YES" attributeType="String"/>
+        <attribute name="num_meat" optional="YES" attributeType="String"/>
+        <attribute name="num_other" optional="YES" attributeType="String"/>
+        <attribute name="num_seafood" optional="YES" attributeType="String"/>
+        <attribute name="num_spice" optional="YES" attributeType="String"/>
+        <attribute name="num_veggies" optional="YES" attributeType="String"/>
+        <attribute name="other" optional="YES" attributeType="String"/>
+        <attribute name="seafood" optional="YES" attributeType="String"/>
+        <attribute name="spice" optional="YES" attributeType="String"/>
+        <attribute name="veggies" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Groceries" representedClassName="Groceries" syncable="YES" codeGenerationType="class">
+        <attribute name="buylist" optional="YES" attributeType="String"/>
+        <attribute name="notdone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Profile" representedClassName="Profile" syncable="YES" codeGenerationType="class">
+        <attribute name="allergies" optional="YES" attributeType="String"/>
+        <attribute name="diets" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="preferences" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SavedRecipe" representedClassName="SavedRecipe" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageurl" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Fridge" positionX="11.71875" positionY="87.875" width="128" height="283"/>
+        <element name="Groceries" positionX="-108" positionY="198" width="128" height="73"/>
+        <element name="Profile" positionX="-240.13671875" positionY="46.0078125" width="128" height="118"/>
+        <element name="SavedRecipe" positionX="-117" positionY="189" width="128" height="88"/>
+    </elements>
+</model>
