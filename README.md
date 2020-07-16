@@ -28,3 +28,4 @@ The application will have a main dashboard that includes multiple tabs to allow 
 The video for the presentation can be found at https://youtu.be/8tbGDmN-yTo. The slides for the presentation of our final roject can be found at https://docs.google.com/presentation/d/1ejAGBuB55Nuz7JOyFkHmw7KrCo1ABTEc7vJjDlzzwTI/edit?usp=sharing. Overall, we were able to create an app with our intended functionality and even add on top of that with a grocery list, profile picture, nutrition save, and more!
 # cs290Final
 # cs290Final
+# cs290Final
